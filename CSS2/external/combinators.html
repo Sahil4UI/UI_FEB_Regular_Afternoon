@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* 
+#parent1 > h2{
+    color:red;
+} */
+/* #parent1 + h2{
+    color:yellow;
+} */
+/* #parent1 ~ h2{
+    color:yellow;
+} */
+ 
+.child:nth-child(1){
+background-color:red!important;
+}
+ </style>
+</head>
+<body>
+    <div id="parent1">
+        /* emmets */
+        
+        <div class="child">
+            <h2>this is inside child</h2>
+            <h2>this is inside child</h2>
+            <h2>this is inside child</h2>
+            <h2>this is inside child</h2>
+        </div>
+        <div class="child">
+            <h2>this is inside child</h2>
+            <h2>this is inside child</h2>
+            <h2>this is inside child</h2>
+            <h2>this is inside child</h2>
+        </div>
+    </div>
+    <h1>SIBLING of Parent1</h1>
+    
+    <h2>SIBLING of Parent1</h2>
+</body>
+</html>

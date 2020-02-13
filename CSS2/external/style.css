@@ -1,0 +1,22 @@
+/* h1
+{
+    font-size:30px;
+}
+
+.h1{
+    color:pink;
+}
+#head5{
+    color:red;
+}
+.head5{
+    color:yellow !important;
+}
+*{
+    color:cyan;
+} */
+
+h2{
+color:red !important;
+font-size:50px;
+}

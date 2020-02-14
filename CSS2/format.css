@@ -1,0 +1,19 @@
+p {
+    /* bold */
+    /* font-weight: bold; */
+    /* text-decoration: overline; */
+    text-decoration: underline;
+    /* color: rgb(0, 255, 0); */
+    color: #009900;
+    font-style: italic;
+    font-family: 'Roboto', cursive;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    line-height: 2;
+    word-spacing: 100px;
+    letter-spacing: 10px;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}

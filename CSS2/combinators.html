@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* > -immediate Child */
+        /*         
+        #parent>h2 {
+            color: red;
+        } */
+        /* immediate siblings */
+        /* #parent+h2 {
+            color: red;
+        } */
+        
+        #parent~h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <h2>1 inside parent</h2>
+        <h2>2 inside parent</h2>
+        <h2>3 inside parent</h2>
+        <h2>4 inside parent</h2>
+        <h2>5 inside parent</h2>
+        <div class="child">
+            <h2>inside child div</h2>
+            <h2>inside child div</h2>
+            <h2>inside child div</h2>
+            <h2>inside child div</h2>
+        </div>
+    </div>
+
+    <hr>
+    <h2>OUTSIDE PARENT</h2>
+    <hr>
+    <hr>
+    <p>Helloe</p>
+
+    <h2>OUTSIDE PARENT</h2>
+</body>
+
+</html>
